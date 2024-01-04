@@ -1,0 +1,41 @@
+:root {
+  --sidebar-line-height: 56px;
+  --sidebar-font-size: 14px;
+  --sidebar-a-menu-bg-color: #304156;
+  --sidebar-a-menu-hover-bg-color: #263445;
+  --sidebar-menu-text-color: #fff;
+  --sidebar-menu-hover-text-color: #fff;
+  --sidebar-small-menu-bg-color: #1f2d3d;
+  --sidebar-menu-active-color: #409EFF;
+  --sidebar-menu-level: 1;
+  --sidebar-small-menu-hover-bg-color: #001528;
+  --sidebar-logo-bg-color: #2b2f3a;
+  --sidebar-logo-height: 60px;
+  --sidebar-logo-text-color: #fff;
+  --sidebar-width: 200px;
+
+  --layout-header-height: 60px;
+  --layout-header-bg-color: #fff;
+  --layout-content-bg-color: #f5f7fa;
+  --layout-content-msg-margin: 20px;
+  --layout-content-msg-bg-color: #fff;
+  --layout-content-msg-padding: 20px;
+  --layout-content-msg-border-radius: 4px;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.el-table {
+  font-size: 12px;
+}
