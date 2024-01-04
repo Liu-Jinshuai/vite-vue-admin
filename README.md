@@ -2,7 +2,7 @@
 
 ## 🚀 Quick Start, Lightweight Management
 
-**vite-vue-admin** — A revolutionary management project template, just 50KB in size. Our vision is to achieve supreme efficiency with minimalist volume.
+**vite-vue-admin** — A management project template, just 50KB in size. Our vision is to achieve supreme efficiency with minimalist volume.
 
 **Lightweight, yet Feature-Rich**: Despite its small size, it includes all the high-efficiency features you need. From axios to eslint, from mock to vitest, we have carefully selected the latest technologies to ensure that your project is modern and powerful.
 
