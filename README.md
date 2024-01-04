@@ -30,3 +30,7 @@ To get started with vite-vue-admin, follow these simple steps:
 Check out the live demo of vite-vue-admin here: [https://liu-jinshuai.github.io/vite-vue-admin](https://liu-jinshuai.github.io/vite-vue-admin)
 
 Join us to start your management project and experience an unprecedented level of ease and efficiency!
+
+### License
+
+Copyright (c) 2024 liujinshuai. [MIT licensed](./LICENSE)
