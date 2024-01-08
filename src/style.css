@@ -1,23 +1,30 @@
 :root {
   --sidebar-line-height: 56px;
   --sidebar-font-size: 14px;
-  --sidebar-a-menu-bg-color: #304156;
-  --sidebar-a-menu-hover-bg-color: #263445;
-  --sidebar-menu-text-color: #fff;
-  --sidebar-menu-hover-text-color: #fff;
-  --sidebar-small-menu-bg-color: #1f2d3d;
+  --sidebar-menu-text-color: #606266;
+  --sidebar-menu-hover-text-color: #409eff;
   --sidebar-menu-active-color: #409EFF;
   --sidebar-menu-level: 1;
-  --sidebar-small-menu-hover-bg-color: #001528;
-  --sidebar-logo-bg-color: #2b2f3a;
+
+  --sidebar-a-menu-bg-color: #fff;
+  --sidebar-a-menu-hover-bg-color: #ecf5ff;
+
+  --sidebar-small-menu-bg-color: #fff;
+  --sidebar-small-menu-hover-bg-color: #ecf5ff;
+
+  --sidebar-logo-bg-color: #fff;
   --sidebar-logo-height: 60px;
-  --sidebar-logo-text-color: #fff;
+  --sidebar-logo-text-color: #409EFF;
+  --sidebar-logo-border-color: #ebeef5;
+
   --sidebar-width: 200px;
 
   --layout-header-height: 60px;
   --layout-header-bg-color: #fff;
+  --layout-header-border-color: #ebeef5;
+
   --layout-content-bg-color: #f5f7fa;
-  --layout-content-msg-margin: 20px;
+  --layout-content-msg-margin: 10px;
   --layout-content-msg-bg-color: #fff;
   --layout-content-msg-padding: 20px;
   --layout-content-msg-border-radius: 4px;

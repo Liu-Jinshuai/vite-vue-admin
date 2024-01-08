@@ -28,6 +28,7 @@ const handleQuit = () => {
     height: var(--layout-header-height);
     position: relative;
     background-color: var(--layout-header-bg-color);
+    border-bottom: 1px solid var(--layout-header-border-color);
 
     .header-logo {
         position: absolute;

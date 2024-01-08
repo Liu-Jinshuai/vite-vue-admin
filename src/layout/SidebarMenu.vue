@@ -43,6 +43,7 @@ router.beforeEach((to) => {
         if (menu.children) {
             menu.children.forEach(child => {
                 const isActive = child.path === to.path;
+                menu.meta.isExpanded = isActive;
                 child.meta._isActive = isActive;
             });
         } else {
@@ -57,13 +58,16 @@ const handleItem = (item) => {
 </script>
 <style lang="scss" scoped>
 .sidebar-main {
+    cursor: pointer;
     .sidebar-logo {
         height: var(--sidebar-logo-height);
         background-color: var(--sidebar-logo-bg-color);
         color: var(--sidebar-logo-text-color);
+        border-bottom: 1px solid var(--sidebar-logo-border-color);
         overflow: hidden;
         display: flex;
         align-items: center;
+        font-weight: bold;
     }
     .sidebar {
         height: calc(100vh - var(--sidebar-logo-height));
